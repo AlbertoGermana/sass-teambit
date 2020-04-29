@@ -1,0 +1,168 @@
+
+main{
+    width: 100vw;
+    .sectionWhite{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        #first{
+            max-width: 90vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div{
+                width: 50vw;
+                padding: 30px;
+                div{
+                    h1{
+                        font-size: 50px;
+                    }
+                    h3{
+                        font-size: 22px;
+                    }
+                    a.btn{
+                        @include btn;
+                    }
+                    span{
+                        margin: 0 15px;
+                        color: $lessImportantFont;
+                    }
+                }
+                img{
+                    max-width: 100%;
+                }
+            }
+            
+        }
+    } 
+    
+    .sectionOrange{
+        article{
+            max-width: 100vw;
+            div{
+                display: flex;
+                justify-content: center;
+                h2{
+                    font-size: 26px;
+                    padding: 80px;
+                }
+                >img{
+                    max-width: 280px;
+                    margin: 80px;
+                }
+            }
+            .box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                .oneOfThree{
+                    margin: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    div{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 200px;
+                        img{
+                            width: 140px;
+                            height: 85px;
+                        }
+                    }
+                    div{
+                        h3{
+                            font-size: 18px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            >h2{
+                text-align: center;
+                padding-bottom: 50px;
+            }
+        }
+    }
+
+    #screenshots{
+        width: 100vw;
+        flex-direction: column;
+        article{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            margin: 35px 0;
+            >div{
+                width: 50%;
+                .screenshot{
+                    width: 100%;
+                }
+                .mini{
+                    width: 200px;
+                    height: 200px;
+                    margin-top: 20px;
+                }
+                div{
+                    width: 50%;
+                }
+            }
+            .mini-sx{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+        }
+    }
+    #blockquotes{
+        padding: 50px 0;
+        >div{
+            h4{
+                font-size: 40px;
+                text-align: center;
+            }
+            >img{
+                display: inline-block;
+            }
+        }
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            #experience{
+                background-color: $primaryBccColor;
+                border: 1px solid $lessImportantFont;
+                border-radius: 7px;
+                padding: 5px;
+                width: calc(90% / 2);
+                margin: 20px 0;
+                >div{
+                    padding: 15px;
+                    p{
+                        
+                    }
+                    img{
+                        width: 38px;
+                    }
+                }
+                >#people{
+                    display: flex;
+                    #names{
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+            div{
+                margin: 10px;
+                a.btn{
+                    @include btn;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

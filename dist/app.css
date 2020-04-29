@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectionWhite {
+  background-color: #fff;
+  color: #58402c;
+}
+
+.sectionOrange {
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  width: 90vw;
+  height: 75px;
+  border-bottom: 1px solid #58402c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+}
+
+header nav div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+header nav div a {
+  margin-left: 10px;
+  display: inline-block;
+  color: #30488f;
+  border: 1px solid #30488f;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+
+main {
+  width: 100vw;
+}
+
+main .sectionWhite {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main .sectionWhite #first {
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .sectionWhite #first div {
+  width: 50vw;
+  padding: 30px;
+}
+
+main .sectionWhite #first div div h1 {
+  font-size: 50px;
+}
+
+main .sectionWhite #first div div h3 {
+  font-size: 22px;
+}
+
+main .sectionWhite #first div div a.btn {
+  color: #fff;
+  background-color: #30488f;
+  border-radius: 7px;
+  padding: 9px 17px;
+}
+
+main .sectionWhite #first div div span {
+  margin: 0 15px;
+  color: #bdb5af;
+}
+
+main .sectionWhite #first div img {
+  max-width: 100%;
+}
+
+main .sectionOrange article {
+  max-width: 100vw;
+}
+
+main .sectionOrange article div {
+  display: flex;
+  justify-content: center;
+}
+
+main .sectionOrange article div h2 {
+  font-size: 26px;
+  padding: 80px;
+}
+
+main .sectionOrange article div > img {
+  max-width: 280px;
+  margin: 80px;
+}
+
+main .sectionOrange article .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .sectionOrange article .box .oneOfThree {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .sectionOrange article .box .oneOfThree div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+main .sectionOrange article .box .oneOfThree div img {
+  width: 140px;
+  height: 85px;
+}
+
+main .sectionOrange article .box .oneOfThree div h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+main .sectionOrange article > h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main #screenshots {
+  width: 100vw;
+  flex-direction: column;
+}
+
+main #screenshots article {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+main #screenshots article > div {
+  width: 50%;
+}
+
+main #screenshots article > div .screenshot {
+  width: 100%;
+}
+
+main #screenshots article > div .mini {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+main #screenshots article > div div {
+  width: 50%;
+}
+
+main #screenshots article .mini-sx {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main #blockquotes {
+  padding: 50px 0;
+}
+
+main #blockquotes > div h4 {
+  font-size: 40px;
+  text-align: center;
+}
+
+main #blockquotes > div > img {
+  display: inline-block;
+}
+
+main #blockquotes > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #blockquotes > div #experience {
+  background-color: #fff;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  padding: 5px;
+  width: calc(90% / 2);
+  margin: 20px 0;
+}
+
+main #blockquotes > div #experience > div {
+  padding: 15px;
+}
+
+main #blockquotes > div #experience > div img {
+  width: 38px;
+}
+
+main #blockquotes > div #experience > #people {
+  display: flex;
+}
+
+main #blockquotes > div #experience > #people #names {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+main #blockquotes > div div {
+  margin: 10px;
+}
+
+main #blockquotes > div div a.btn {
+  color: #fff;
+  background-color: #30488f;
+  border-radius: 7px;
+  padding: 9px 17px;
+  margin: 10px;
+}
+
+footer {
+  width: 90vw;
+}
+
+footer > div {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+footer > div #links {
+  width: 70%;
+  display: flex;
+}
+
+footer > div #links div {
+  width: calc(100% / 5);
+}
+
+footer > div #links div ul li {
+  list-style-type: none;
+}
+
+footer > div #links div span {
+  font-weight: bold;
+}
+

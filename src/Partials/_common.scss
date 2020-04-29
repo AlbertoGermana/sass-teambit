@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionWhite{
+    background-color: $primaryBccColor;
+    color: $primaryFontColor;
+}
+.sectionOrange{
+background-color: $secondaryBccColor;
+color: $primaryFontColor;
+}
+@mixin btn{
+    color: $primaryBccColor;
+    background-color: $primaryBccButtons;
+    border-radius: 7px;
+    padding: 9px 17px;
+}
+a{
+    text-decoration: none;
+}
