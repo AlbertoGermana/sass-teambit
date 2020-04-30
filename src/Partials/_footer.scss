@@ -10,8 +10,15 @@ footer{
             div{
                 width: calc(100% / 5);
                 ul{
+                    margin-left: 5px;
                     li{
                         list-style-type: none;
+                        margin-top: 3px;
+                        a{
+                            color: $primaryFontColor;
+                            font-weight: 300;
+                            font-size: 12px;
+                        }
                     }
                 }
                 span{
@@ -19,5 +26,20 @@ footer{
                 }
             }
         }
+        #phrase{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            box-sizing: content-box;
+            >h6{
+                margin-right: 45px;
+                font-size: 18px;
+            }
+            img{
+                width: 65px;
+                margin: 30px;
+            }
+        }
     }
+    
 }

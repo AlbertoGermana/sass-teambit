@@ -16,16 +16,29 @@ header{
                 li{
                     list-style-type: none;
                     display: inline-block;
-                    margin: 5px;
+                    margin: 0 15px;
+                    a{
+                        font-size: 13px;
+                        color: $primaryFontColor;
+                    }
                 }
             }
-            a{
+            >a{
                 margin-left: 10px;
                 display: inline-block;
                 color: $primaryBccButtons;
                 border: 1px solid $primaryBccButtons;
                 border-radius: 7px;
                 padding: 5px 10px;
+                &:hover{
+                    color: $primaryBccColor;
+                    background-color: $primaryBccButtons;
+                    transition: ease 0.5s;
+                }
+                img{
+                    margin-right: 6px;
+                }
+                
             }
         }
     }

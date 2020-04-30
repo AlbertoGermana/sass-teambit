@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto";
+  /* , Arial, Helvetica, sans-serif */
+}
+
 .sectionWhite {
   background-color: #fff;
   color: #58402c;
@@ -41,16 +46,31 @@ header nav div {
 header nav div ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 5px;
+  margin: 0 15px;
 }
 
-header nav div a {
+header nav div ul li a {
+  font-size: 13px;
+  color: #58402c;
+}
+
+header nav div > a {
   margin-left: 10px;
   display: inline-block;
   color: #30488f;
   border: 1px solid #30488f;
   border-radius: 7px;
   padding: 5px 10px;
+}
+
+header nav div > a:hover {
+  color: #fff;
+  background-color: #30488f;
+  transition: ease 0.5s;
+}
+
+header nav div > a img {
+  margin-right: 6px;
 }
 
 main {
@@ -77,10 +97,13 @@ main .sectionWhite #first div {
 
 main .sectionWhite #first div div h1 {
   font-size: 50px;
+  line-height: 75px;
 }
 
 main .sectionWhite #first div div h3 {
+  margin-top: 40px;
   font-size: 22px;
+  font-weight: 300;
 }
 
 main .sectionWhite #first div div a.btn {
@@ -147,11 +170,18 @@ main .sectionOrange article .box .oneOfThree div img {
 main .sectionOrange article .box .oneOfThree div h3 {
   font-size: 18px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 main .sectionOrange article > h2 {
   text-align: center;
   padding-bottom: 50px;
+}
+
+main .sectionOrange article #secondOrange h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 750px;
 }
 
 main #screenshots {
@@ -175,19 +205,26 @@ main #screenshots article > div .screenshot {
 }
 
 main #screenshots article > div .mini {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
+  width: 100%;
 }
 
 main #screenshots article > div div {
   width: 50%;
+  margin: 20px 50px 0 50px;
+}
+
+main #screenshots article > div div h3 {
+  margin-bottom: 15px;
 }
 
 main #screenshots article .mini-sx {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+main #twinOrange {
+  border-top: #bdb5af 1px solid;
 }
 
 main #blockquotes {
@@ -214,12 +251,16 @@ main #blockquotes > div #experience {
   border: 1px solid #bdb5af;
   border-radius: 7px;
   padding: 5px;
-  width: calc(90% / 2);
   margin: 20px 0;
 }
 
 main #blockquotes > div #experience > div {
+  width: 560px;
   padding: 15px;
+}
+
+main #blockquotes > div #experience > div p {
+  margin-bottom: 15px;
 }
 
 main #blockquotes > div #experience > div img {
@@ -267,11 +308,39 @@ footer > div #links div {
   width: calc(100% / 5);
 }
 
+footer > div #links div ul {
+  margin-left: 5px;
+}
+
 footer > div #links div ul li {
   list-style-type: none;
+  margin-top: 3px;
+}
+
+footer > div #links div ul li a {
+  color: #58402c;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 footer > div #links div span {
   font-weight: bold;
+}
+
+footer > div #phrase {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+footer > div #phrase > h6 {
+  margin-right: 45px;
+  font-size: 18px;
+}
+
+footer > div #phrase img {
+  width: 65px;
+  margin: 30px;
 }
 
